@@ -11,7 +11,7 @@ Mientras que los números, los floating-points, y los strings tienen un
 numero ilimitado de posibles valores, el tipo Booleano solo tiene dos.
 
 Operadores de comparación:
-== igual que 		!= no igual a 		!= no igual a 		< menos que 		> más que 		<= menor que o igual a 		>= mayor que o igual a  	
+== igual que ,!= no igual a ,!= no igual a ,< menos que ,> más que, <= menor que o igual a, >= mayor que o igual a
  
 Operadores booleanos:
 
