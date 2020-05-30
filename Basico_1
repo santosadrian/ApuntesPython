@@ -1,80 +1,77 @@
-Funciones:
-La función len() devuelve el número de caracteres del string en particular. len('Hola') >>> | 4 len('') >>> 0
-La funcion str() concadena un número como 33 con una string para por ejemplo hacer un print print('I am ' + str(29) + 
-' years old.' ) >> I am 29 years old.
-La función float() así como el resto de funciones aqui expuestas pasan los valores de otros tipos de datos para obtener una
-string, un número, o un floating-point.
+----------> Funciones:
+La función len() devuelve el número de caracteres del 'string' en particular. len('Hola') >>> | 4 len('') >>> 0
+La función str() concadena un número como 33 con una 'string' para por ejemplo hacer un print print('I am ' + str(29) + ' years old.' ) >> I am 29 years old.
+La función float() así como el resto de funciones aqui expuestas pasan los valores de otros tipos de datos para obtener una string, un número, o un floating-point.
 
-Flow control:
-Un programa es una serie de instrucciones, lo que no quiere decir que este se limite a repetirlas secuencialmente, el verdadero
-poder de la programacion consiste en que segun las expresiones se evaluen, el programa puede decidir si saltarselas, repetirlas
-o elegir una de las varias instrucciones para ejecutar.
+----------> Flow control:
+Un programa es una serie de instrucciones, lo que no quiere decir que este se limite a repetirlas secuencialmente, el verdadero poder de la programacion consiste en que segun las expresiones se evaluen, el programa puede decidir si saltarselas, repetirlas o elegir una de las varias instrucciones para ejecutar.
 
-Bolean: True o False
+-----> Bolean: True o False
 Mientras que los números, los floating-points, y los strings tienen un
 numero ilimitado de posibles valores, el tipo Booleano solo tiene dos.
 
-Operadores de comparación:
-== igual que ,!= no igual a ,!= no igual a ,< menos que ,> más que, <= menor que o igual a, >= mayor que o igual a
+----------> Operadores de comparación:
+== igual que 		!= no igual a 		!= no igual a 		< menos que 		> más que 		<= menor que o igual a 		>= mayor que o igual a  	
  
-Operadores booleanos:
+----------> Operadores booleanos:
+Existen tres operadores booleanos (and, or, not). Son usados para comparar valores booleanos. Como los operadores de comparación, evaluan estas expresiones hasta llegar a su valor booleano, and or y not siempre toman dos valores booleanos (o expresiones). Por eso son considerados operadores binarios.
 
-Existen tres operadores booleanos (and, or, not). Son usados para comparar valores booleanos. Como los operadores de comparación,
-ellos evaluan estas expresiones hasta llegar a su valor booleano. and or y not siempre toman dos valores booleanos (o expresiones
-). Por eso son considerados operadores binarios.
-
-The and Operator's Truth Table:
+-----> The and Operator's Truth Table:
 True  and  True		True
 True  and  False  	False
 False and  True  	False
 False and  False 	False
 
-The or Operator's Truth Table:
+-----> The or Operator's Truth Table:
 True   or  True		True
 True   or  False	True
 False  or  True		True
 False  or  False	False
 
-The not Operator's Truth Table:
+-----> The not Operator's Truth Table:
 not  True		False
 not  False		True
 
-Elementos del control de flujo:
-Los statements de control de flujo a menudo empiezan con una parte llamada 'condition', y todo es seguido por un bloque de 
-código llamada 'clause'.
-'Conditions': las expresiones booleanas que hemos visto podrían ser todas consideradas 'conditions', que es lo mismo que 
-'expresions'. 'Condition' es mas un nombre específico en el contexto de las declaraciones del control de flujo.. 'Conditions'
-siempre evaluan hacia un valor booleano, True or False. Una declaracion de control de flujo decide que hacer basado en cual es
-su condición, True o False. Y casi todos los controles de flujo usan una 'condition'.
+-----> Elementos del control de flujo:
+Los statements de control de flujo a menudo empiezan con una parte llamada 'condition', y todo es seguido por un bloque de código llamada 'clause'.
+'Conditions': las expresiones booleanas que hemos visto podrían ser todas consideradas 'conditions', que es lo mismo que 'expresions'. 'Condition' es mas un nombre específico en el contexto de las declaraciones del control de flujo.. 'Conditions' siempre evaluan hacia un valor booleano, True or False. Una declaracion de control de flujo decide que hacer basado en cual es su condición, True o False. Y casi todos los controles de flujo usan una 'condition'.
 
 Ejecución del programa:
-En un programa simple python empieza a ejecutar código desde arriba hasta abajo, linea tras linea. En cambio no todos los
-programas se ejecutan simplemente yendo hacia abajo.
+En un programa simple python empieza a ejecutar código desde arriba hasta abajo, linea tras linea. En cambio no todos los programas se ejecutan simplemente yendo hacia abajo.
 
-Flow Control Statements:
+----------> Flow Control Statements:
 Los 'statements' representan las decisiones que tu programa va a obedecer.
 
-'if Statements':
-Es el tipo más común de 'flow control statement'. Y si el 'if statement clause' (el bloque que sigue al if) ejecutara el el if
-si la 'condition' es True. The 'clause' se salta si la condición es False.
+-----> 'if Statements':
+Es el tipo más común de 'flow control statement'. Y si el 'if statement clause' (el bloque que sigue al if) ejecutara el el if si la 'condition' es True. The 'clause' se salta si la condición es False.
 Los 'if statements' contienen lo siguiente:
 1. La palabra if.
 2. Una 'condition' (una expresión que evalua si es True o False)
 3. A colon (:).
 4. Un bloque de código indentado (llamado el 'if clause').
 
-'else Statements':
-Un 'if clause' puede opcionalmente estar seguido por un 'else statement'. El 'else clause' se ejecuta cuando el 'if statement'
-es False. Siempre consiste en lo mismo:
+-----> 'else Statements':
+Un 'if clause' puede opcionalmente estar seguido por un 'else statement'. El 'else clause' se ejecuta cuando el 'if statement' es False. Siempre consiste en lo mismo:
 1. La palabra 'else'.
 2. Dos puntos (:).
 3. Un código de bloque indentado empezando en la siguiente línea llamado el 'else clause'.
 
-'elif Statements':
-Cuando sólo un if o un else va a ser ejecutado, quizás necesitas un caso donde quieras una de tantas 'clauses' para ejecutar.
-El 'elif statement' es un 'else if' statement que siempre sigue un if u otro 'elif statement'. Provee otra condición que es
-comprobada solo si algunas de las previas condiciones que son checkeadas eran False. Siempre es así:
+-----> 'elif Statements':
+Cuando sólo un if o un else va a ser ejecutado, quizás necesitas un caso donde quieras una de tantas 'clauses' para ejecutar. El 'elif statement' es un 'else if' statement que siempre sigue un if u otro 'elif statement'. Provee otra condición que es comprobada solo si algunas de las previas condiciones que son checkeadas eran False. Siempre es así:
 1. La palabra elif
 2. Una condición (que és una expresión que evalua True o False).
 3. Dos puntos (:).
 4. Un bloque de código indentado en la siguiente línea (llamado el 'elif clause').
+
+-----> 'while Loop Statements':
+Con un 'while statement' puedes hacer que un bloque de código se ejecute hasta ell infinito. El código en un 'while clause' será ejecutado durante tanto tiempo como ell while statement condition es True. 
+1. La palabra while.
+2. Una 'condition' (una expresión que evalúa si es True or False).
+3. Un código de block indentado en la siguiente línea (llamado el 'while clause').
+
+-----> 'break Statements':
+Hay un atajo para parar la ejecución temprana de un programa que está dentro de un loop while. Si la ejecución se encuentra con un breal statement, inmediatamente sale del while loop clause. En código, un break statement simplemente contiene la palabra break.
+
+-----> 'continue Statements':
+Como los break statements, continue statements son usados dentro de los loops. Cuando la ejecución alcanza a continue statement, la ejecución del programa automáticamente salta atrás al principio del loop y reevalua la condición.
+
