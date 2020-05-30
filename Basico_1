@@ -36,7 +36,7 @@ not  False		True
 Los statements de control de flujo a menudo empiezan con una parte llamada 'condition', y todo es seguido por un bloque de código llamada 'clause'.
 'Conditions': las expresiones booleanas que hemos visto podrían ser todas consideradas 'conditions', que es lo mismo que 'expresions'. 'Condition' es mas un nombre específico en el contexto de las declaraciones del control de flujo.. 'Conditions' siempre evaluan hacia un valor booleano, True or False. Una declaracion de control de flujo decide que hacer basado en cual es su condición, True o False. Y casi todos los controles de flujo usan una 'condition'.
 
-Ejecución del programa:
+-----> Ejecución del programa:
 En un programa simple python empieza a ejecutar código desde arriba hasta abajo, linea tras linea. En cambio no todos los programas se ejecutan simplemente yendo hacia abajo.
 
 ----------> Flow Control Statements:
