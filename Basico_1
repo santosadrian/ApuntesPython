@@ -96,7 +96,7 @@ saludo() # Esto es una 'function call', posiblemente necesite llevar números o 
 >>> Cómo estás hoy? # función y continúa moviendose por el código como normalmente. Puedes llamar al a función repetidas veces.
 
 -----> 'def Statements with Parameters'
-Cuando llamas a una función 'print()' o 'len()', pasas valores, llamados argumentos en este contexto, escribie¡éndolos entre el paréntesis. También puedes definir tus propias funciones que acepten tus argumentos. Un ejemplo:
+Cuando llamas a una función 'print()' o 'len()', pasas valores, llamados argumentos en este contexto, escribiéndolos entre el paréntesis. También puedes definir tus propias funciones que acepten tus argumentos. Un ejemplo:
 
 def saluda(nombre):
     print('Hola' + nombre)
