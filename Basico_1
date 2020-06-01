@@ -79,7 +79,7 @@ El 'loop' while continua 'looping' mientras la condición sea 'True' (lo cuál e
 1. La palabra 'for'.
 2. Un nombre de variable.
 3. La 'keyword' 'in'.
-4. Una llamada al método 'range()'' con hasta tres dígitos pasados a el.
+4. Una llamada al método 'range()' con hasta tres dígitos pasados a el.
 5. Dos puntos (:).
 6. Un bloque de código indentado en la siguiente línea (llamado el 'for clause').
 
